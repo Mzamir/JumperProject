@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.applitainment.tabs.flipscreen">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/r"
+        android:src="@drawable/r"
+        android:title="@string/pic"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/t"
+        android:src="@drawable/t"
+        android:title="@string/pic"
+        app:showAsAction="ifRoom" />
+
+</menu>

@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WoodenSideProject" >
+
+    <include layout="@layout/toolbar" />
+    <LinearLayout
+        android:id="@+id/noconnectionlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/noconnection_icon"
+            android:layout_marginBottom="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/noconnection"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/retry"
+            android:id="@+id/retyconnection"
+            android:textColor="@android:color/white"
+            android:textSize="14dp"
+            android:background="@drawable/retry_btn"/>
+        </LinearLayout>
+
+</FrameLayout>

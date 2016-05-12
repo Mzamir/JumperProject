@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/homeicon_unselected"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_Wishlist"
+            android:icon="@drawable/wishlisticon_sidemenu_unselected"
+            android:title="Wishlist" />
+        <item
+            android:id="@+id/nav_InviteFriend"
+            android:icon="@drawable/inviteicon_unselected"
+            android:title="Invite Friends" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settingsicon_unselected"
+            android:title="Setting" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logouticon_unselected"
+            android:title="Logout" />
+    </group>
+
+</menu>
